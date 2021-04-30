@@ -1,0 +1,38 @@
+Inicio
+   ESCREVAL ("Nadadores")
+   
+   ESCREVAL ("Olá atleta!, qual a sua idade?")
+   LEIA (idade)
+
+   SE (idade >= 18)
+
+   ESCREVAL("Ora ora um experiente, parabéns nadador você já é um Sênior")
+
+   FIM SE      
+
+   SE (idade >= 14 && idade <= 17)
+            
+   ESCREVAL("Já está ficando velho, sua turma é a Juvenil B")
+
+   FIM SE
+            
+   SE (idade >= 11 && idade <= 13)
+            
+   ESCREVAL("Você está no meio de sua jornada, mas ainda tem muito a aprender, está na turma é a Juvenil A")
+            
+   FIM SE
+
+   SE (idade >= 8 && idade <= 10)
+            
+   ESCREVAL("Você é um jovem nadador, sua turma é o Infantil B")
+
+   FIM SE
+            
+   SE (idade >= 5 && idade <= 7)
+            
+   ESCREVAL("Você é um iniciante, sua turma é o Infantil A")
+
+   FIM SE
+
+Fim
+            

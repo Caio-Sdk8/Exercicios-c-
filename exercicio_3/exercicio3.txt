@@ -1,0 +1,19 @@
+Inicio
+   
+   Var = salario
+   Var = reajuste 
+
+   ESCREVAL ("Reajuste de salário")
+
+   ESCREVAL ("Olá funcionário, qual o seu salário (sem necessidade da moeda)?")
+   LEIA (salario)
+
+   SE (salario <= 500)
+       ESCREVAL ("Após o reajuste oferecido pela empresa, seu novo salário é " + reajuste)
+   FIM SE
+
+   SENÃO
+       ESCREVAL ("Você não está apto a receber o reajuste, tenha um bom dia")
+   FIM SE
+
+Fim

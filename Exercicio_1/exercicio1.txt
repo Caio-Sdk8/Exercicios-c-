@@ -1,0 +1,27 @@
+Inicio
+   var = anos
+   var = meses
+   var = idmeses
+   var = dias
+   var = minutos
+
+   ESCREVAL ("Idade")
+
+   ESCREVAL ("Qual a sua idade em:")
+
+   ESCREVA ("Anos:")
+   LEIA (anos)
+
+   ESCREVA ("meses:")
+   LEIA ("meses")
+
+   idmeses = (anos * 12) + meses
+   dias = (anos * 365) + (30 * meses)
+   minutos = dias * 1440 
+
+   ESCREVAL ("Sua idade é em:")
+   ESCREVAL ("Anos: " + anos)
+   ESCREVAL ("Meses: " + idmeses)
+   ESCREVAL ("Dias: " + dias)
+   ESCREVAL ("Minutos: " + minutos)
+fim

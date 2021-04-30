@@ -1,0 +1,18 @@
+Inicio
+
+   Var = anoidade
+   Var = Idade
+   Var = idadesem
+   Var = anoatual
+
+   ESCREVAL ("Idade")
+
+   ESCREVAL ("Olá usuario, me informe:" + "\n")
+
+   ESCREVAL ("O ano em que você nasceu:")
+   LEIA (anoidade)
+
+   ESCREVAL ("A sua idade é: " + idade)
+   ESCREVAL ("E em semanas, você viveu aproximadamente: " + idadesem)
+
+Fim
